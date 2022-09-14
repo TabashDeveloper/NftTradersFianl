@@ -1,0 +1,36 @@
+.TradeRow_rotating__FEQlp {
+    -webkit-animation: TradeRow_rotate__BmJAX 1s linear infinite;
+    animation: TradeRow_rotate__BmJAX 1s linear infinite;
+  }
+  @keyframes TradeRow_rotate__BmJAX {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  @-webkit-keyframes TradeRow_rotate__BmJAX {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  .globaldeals_rotating__oothh {
+    -webkit-animation: globaldeals_rotate__88_yc 1s linear infinite;
+    animation: globaldeals_rotate__88_yc 1s linear infinite;
+  }
+  @keyframes globaldeals_rotate__88_yc {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  @-webkit-keyframes globaldeals_rotate__88_yc {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  .globaldeals_scrollableTrades__5ZutC > div {
+    width: 100%;
+  }
+  .globaldeals_scrollableTrades__5ZutC > div > div {
+    width: 100%;
+    overflow: initial !important;
+  }
+  
