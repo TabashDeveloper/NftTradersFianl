@@ -1510,28 +1510,28 @@
                               className: "inline",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("yourHubTradeLabel"),
-                                url: "#",
+                                url: "/mytrades.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               className: "inline md:mx-[28px] lg:mx-[48px]",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("globalDealsLabel"),
-                                url: "#",
+                                url: "/globaldeals.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               className: "inline md:mr-[28px] lg:mr-[48px]",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("howToTradeLabel"),
-                                url: "#",
+                                url: "./how-to-trade.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               className: "inline",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("tradeSquadLabel"),
-                                url: "#",
+                                url: "./tradesquads.html",
                               }),
                             }),
                           ],
@@ -1552,7 +1552,7 @@
                               className: "inline md:mr-[28px] lg:mr-[48px]",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("aboutUsLabel"),
-                                url: "#",
+                                url: "./about.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
@@ -1902,28 +1902,28 @@
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("yourHubTradeLabel"),
-                                            url: "#" ///mytrades",
+                                            url: "/mytrades.html",
                                           }),
                                         }),
                                         (0, r.jsx)("li", {
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("globalDealsLabel"),
-                                            url: "#" //"/globaldeals",
+                                            url: "/globaldeals.html",
                                           }),
                                         }),
                                         (0, r.jsx)("li", {
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("howToTradeLabel"),
-                                            url: "#" //"/how-to-trade",
+                                            url: "/how-to-trade.html",
                                           }),
                                         }),
                                         (0, r.jsx)("li", {
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("tradeSquadLabel"),
-                                            url: "#" //"/tradesquads",
+                                            url: "/tradesquads.html",
                                           }),
                                         }),
                                       ],
@@ -5080,12 +5080,13 @@
                 n.forEach(function (e, n) {
                   a = a.replace(e, t[n].toString());
                 }),
-                "".concat("https://api.nfttrader.io", "/").concat(a)
+                "".concat("https://cors-anywhere-thud.herokuapp.com/https://api.nfttrader.io", "/").concat(a)
               );
+             
             }
           }
           var i, s;
-          return "".concat("https://api.nfttrader.io", "/").concat(r[e]);
+          return "".concat("https://cors-anywhere-thud.herokuapp.com/https://api.nfttrader.io", "/").concat(r[e]);
         };
     },
     47777: function (e, t, n) {

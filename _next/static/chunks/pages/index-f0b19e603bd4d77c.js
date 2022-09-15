@@ -2583,7 +2583,7 @@
                                       "flex flex-col lg:flex-row items-start lg:items-center justify-start gap-2 lg:gap-6",
                                     children: [
                                       (0, s.jsx)(F.default, {
-                                        href: "#",//"/globaldeals",
+                                        href: "/globaldeals.html",
                                         children: (0, s.jsx)("a", {
                                           children: (0, s.jsx)(r.Z, {
                                             text: e("viewGlobalTradeLabel"),

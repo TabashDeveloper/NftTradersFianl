@@ -3,7 +3,7 @@
   {
     61719: function (e, s, a) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
-       "#", // "/how-to-trade",
+        "/how-to-trade",
         function () {
           return a(17344);
         },
@@ -79,21 +79,21 @@
                 title: a("howToTradeLabel"),
                 subtitle: a("learnHowLabel"),
                 button: a("readMoreLabel"),
-                href: "#"//"/how-to-trade",
+                href: "/how-to-trade",
               },
               discord: {
                 icon: d,
                 title: a("joinDiscordLabel"),
                 subtitle: a("comeBestCommunityLabel"),
                 button: a("joinUsLabel"),
-                href: "#"//"https://discord.gg/q4gK9sqt6r",
+                href: "https://discord.gg/q4gK9sqt6r",
               },
               faq: {
                 icon: x,
                 title: a("faqLabel"),
                 subtitle: a("findAnswersLabel"),
                 button: a("readMoreLabel"),
-                href: "#"//"/faq",
+                href: "/faq",
               },
             }[s];
           return (0, t.jsxs)("div", {
