@@ -1531,7 +1531,7 @@
                               className: "inline",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("tradeSquadLabel"),
-                                url: "./tradesquads.html",
+                                url: "#"//"./tradesquads.html",
                               }),
                             }),
                           ],
@@ -1552,7 +1552,7 @@
                               className: "inline md:mr-[28px] lg:mr-[48px]",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("aboutUsLabel"),
-                                url: "./about.html",
+                                url: "#" //./about.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
@@ -1923,7 +1923,7 @@
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("tradeSquadLabel"),
-                                            url: "/tradesquads.html",
+                                            url: "#"//"/tradesquads.html",
                                           }),
                                         }),
                                       ],
