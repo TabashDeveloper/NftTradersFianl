@@ -1517,14 +1517,14 @@
                               className: "inline md:mx-[28px] lg:mx-[48px]",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("globalDealsLabel"),
-                                url: "/globaldeals.html",
+                                url: "#" // "/globaldeals.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
                               className: "inline md:mr-[28px] lg:mr-[48px]",
                               children: (0, r.jsx)(d.Z, {
                                 text: S("howToTradeLabel"),
-                                url: "./how-to-trade.html",
+                                url: "#" // "./how-to-trade.html",
                               }),
                             }),
                             (0, r.jsx)("li", {
@@ -1909,14 +1909,14 @@
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("globalDealsLabel"),
-                                            url: "/globaldeals.html",
+                                            url: "#" //"/globaldeals.html",
                                           }),
                                         }),
                                         (0, r.jsx)("li", {
                                           className: "pl-[12px] pt-[16px]",
                                           children: (0, r.jsx)(d.Z, {
                                             text: _("howToTradeLabel"),
-                                            url: "/how-to-trade.html",
+                                            url: "#" //"/how-to-trade.html",
                                           }),
                                         }),
                                         (0, r.jsx)("li", {
